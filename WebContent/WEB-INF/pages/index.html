@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:xlink="http://www.w3.org/1999/xlink">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
+<title>D3 Example</title>
+</head>
+<body>
+	<a href="start_page.jsp" id="logo"></a>
+	<h2>Releases</h2>
+	<div id="container"></div>
+	<h2>Bar chart</h2>
+	<div id="chart"></div>
+	<h2>Line chart</h2>
+	<div id="line"></div>
+	<h2>Map</h2>
+	<div id="map"></div>
+	<h2>Google map</h2>
+	<div id='map_canvas'></div>
+	<h2>Timeline</h2>
+	<div id="timeline"></div>
+	<script type="text/javascript"
+		src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<script type="text/javascript" src="scripts/LAB.min.js"></script>
+	<script>
+		$LAB.script(
+				"https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js")
+				.wait().script("http://d3js.org/topojson.v1.min.js").wait()
+				.script("http://d3js.org/d3.v3.min.js").wait().script(
+						"scripts/properties.js").wait().script(
+						"scripts/drawTable.js").wait().script(
+						"scripts/drawLineChart.js").wait().script(
+						"scripts/drawBarChart.js").wait().script(
+						"scripts/drawMaps.js").wait().script(
+						"scripts/drawTimeLine.js").wait().script(
+						"scripts/common.js").wait().script("scripts/main.js")
+				.wait(function() {
+					console.log("Everything is loaded!");
+				});
+	</script>
+</body>
+</html>

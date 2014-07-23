@@ -1,0 +1,348 @@
+@import url("font.css");
+
+/* body {
+	min-width: 900px;
+	line-height: 1;
+	margin: 0;
+	padding: 2em 2.8em 2em 2.8em
+} */
+
+/* .thead {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.data {
+	text-align: left;
+	width: 410px;
+	font-size: 12px;
+} */
+
+/* table {
+	width: 90%;
+	border-top: 1px solid #e5eff8;
+	border-right: 1px solid #e5eff8;
+	margin: 1em auto;
+	border-collapse: collapse;
+}
+
+td {
+	color: #678197;
+	border-bottom: 1px solid #e5eff8;
+	border-left: 1px solid #e5eff8;
+	padding: .3em 1em;
+	text-align: center;
+} */
+
+/* .thead {
+	background: #f4f9fe;
+	text-align: center;
+	font: bold 1.2em/2em "Century Gothic", "Trebuchet MS", Arial, Helvetica,
+		sans-serif;
+	color: #66a3d3;
+	border-bottom: 1px solid #e5eff8;
+	border-left: 1px solid #e5eff8;
+}
+
+tr:first-child {
+	background: #f7fbff;
+}
+
+tr:nth-child(even) {
+	background: #f4f9fe;
+}
+
+tr:nth-child(odd) {
+	background: #f7fbff
+}
+
+tbody>tr:hover {
+	background: #CCCCCC
+} */
+.wrapper {
+	display: table-cell;
+	border-bottom: 1px solid #e5eff8;
+	border-left: 1px solid #e5eff8;
+	text-align: center;
+	padding-left: 15px;
+}
+
+.filterWrapper {
+	display: table-cell;
+	text-align: center;
+	font: bold 1.2em/2em "Century Gothic", "Trebuchet MS", Arial, Helvetica,
+		sans-serif;
+	color: #66a3d3;
+	border-bottom: 1px solid #e5eff8;
+}
+
+.filterWrapper>label {
+	font-size: 12px;
+	font-family: sans-serif;
+	color: #678197;
+	margin: 0px 10px 0px 10px;
+}
+
+.filter {
+	
+}
+
+.filterLabel {
+	width: 60px;
+	background-image: url("../images/search.png");
+	background-repeat: no-repeat;
+	background-position: 0px 10px;
+	display: inline-block;
+}
+
+.index {
+	width: auto;
+	margin: 0px 10px 0px 10px;
+	font-size: 12px;
+	font-family: sans-serif;
+	color: #678197;
+}
+
+/* h2 {
+	background: none;
+	font-weight: normal;
+	margin: 0;
+	padding-top: .5em;
+	padding-bottom: .17em;
+	border-bottom: 1px solid #aaa;
+} */
+.axis path,.axis line {
+	fill: none;
+	stroke: black;
+	shape-rendering: crispEdges;
+}
+
+.bar:hover {
+	fill: #CCCCCC;
+}
+
+.x.axis path {
+	display: none;
+}
+
+.bar {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.chart text {
+	fill: blue;
+	font: 12px sans-serif;
+	font-weight: bold;
+	pointer-events: none;
+}
+
+.x text {
+	font-size: 12px;
+}
+
+.xL text {
+	/* Safari */
+	-webkit-transform: rotate(-90deg);
+	/* Firefox */
+	-moz-transform: rotate(-90deg);
+	/* IE */
+	-ms-transform: rotate(-90deg);
+	/* Opera */
+	-o-transform: rotate(-90deg);
+	text-anchor: end;
+}
+
+g.tick {
+	width: 90px;
+	margin-top: 10px;
+}
+
+.tooltip {
+	position: absolute;
+	text-align: center;
+	width: auto;
+	height: auto;
+	padding: 2px;
+	font: 12px sans-serif;
+	background: lightsteelblue;
+	border: 0px;
+	border-radius: 8px;
+	pointer-events: none;
+}
+
+.line {
+	fill: none;
+	stroke: darkblue;
+	stroke-width: 2px;
+}
+
+.xL.Laxis path {
+	fill: none;
+	stroke: black;
+	font-size: 12px;
+	shape-rendering: crispEdges;
+}
+
+.yL.Laxis path {
+	shape-rendering: crispEdges;
+	fill: none;
+	stroke: black;
+	font-size: 12px;
+}
+
+#map_canvas {
+	height: 400px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px
+}
+
+.markers,.marker {
+	cursor: pointer;
+}
+
+.place-label {
+	fill: aqua;
+}
+
+/* timeline css*/
+
+/* axis */
+.axis { /* axis labels */
+	fill: #808080;
+	font-family: sans-serif;
+	font-size: 10px;
+}
+
+/* timeline band */
+.band { /* band background */
+	fill: #FAFAFA;
+}
+
+.chart {
+	fill: #EEEEEE;
+}
+
+.instantLabel {
+	fill: blue;
+	shape-rendering: crispEdges;
+	/* Safari */
+	/* -webkit-transform: rotate(-90deg); */
+	/* Firefox */
+	/* -moz-transform: rotate(-90deg); */
+	/* IE */
+	/* -ms-transform: rotate(-90deg); */
+	/* Opera */
+	/* -o-transform: rotate(-90deg); */
+	font-size: 12px;
+}
+
+#timeline {
+	border-style: solid;
+	border-width: 10px;
+	border-color: gray;
+	background-color: #FAFAFA;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+
+.timeTooltip {
+	cursor: default;
+	width: auto;
+	height: auto;
+	border: 1px solid;
+	display: block;
+	text-align: center;
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.75);
+	padding: 5px;
+	border: 1px solid rgba(0, 0, 0, .2);
+	z-index: 10000;
+	font-family: Arial;
+	font-size: 13px;
+	-moz-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	pointer-events: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.alb {
+	border-bottom: 1px solid;
+}
+
+.clickAlb {
+	cursor: pointer;
+}
+
+#previous {
+	background-image: url("../images/tablecontrol.png");
+	background-position: -20px -2px;
+	border-radius: 5px;
+	border-color: transparent;
+	width: 18px;
+	height: 18px;
+}
+
+#next {
+	background-image: url("../images/tablecontrol.png");
+	background-position: -38px -2px;
+	border-radius: 5px;
+	border-color: transparent;
+	width: 18px;
+	height: 18px;
+}
+
+#previous:hover,#next:hover {
+	background-color: #CACACA;
+}
+
+.Laxis>g.tick line {
+	stroke: lightgrey;
+	opacity: 0.7;
+}
+
+.circle {
+	fill: lightblue
+}
+
+.ui-draggable .ui-dialog-titlebar {
+	display: none;
+}
+
+#dialog-form {
+	position: absolute;
+	top: 90px;
+	right: 105px;
+	z-index: 2;
+}
+
+#dialog-form .query {
+	height: 145px;
+	resize: none;
+	width: 100%;
+	width: 550px;
+}
+
+.dialog {
+	visibility: hidden;
+}
+
+.dialog-but {
+	position: absolute;
+	bottom: 20px;
+	right: 0;
+}
+
+a {
+	cursor: pointer;
+}

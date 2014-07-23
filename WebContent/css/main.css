@@ -1,0 +1,595 @@
+/* @import url("reset.css"); */
+@import url("font.css");
+
+body {
+	/* width: 100%; */
+	min-width: 900px;
+	position: relative;
+	font-size: 14px;
+	padding: 2em 2.8em 2em 2.8em
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+label {
+	
+}
+
+strong {
+	font-weight: bold;
+}
+
+/* #pagefooter {
+	width: 100%;
+	height: 2em;
+	border-top: 1px solid #E0E0E0;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	text-align: center;
+	padding-top: 10px
+}
+
+#pagefooter a {
+	margin: 0.2em;
+	text-decoration: underline;
+} */
+#logo {
+	margin: 0em 0 2em 0em;
+	background-image: url("../images/DaPaaS.png");
+	width: 9.22em;
+	height: 4.85em;
+	display: inline-block;
+	float: left;
+	height: 4.85em;
+}
+
+#wrapper {
+	display: inline-block;
+	float: right;
+}
+
+#searchBox, .search {
+	display: inline-block;
+	float: left;
+	width: auto;
+	/* margin: 1.8em; */
+	margin-top: 1.0em;
+}
+
+#searchBox input, .search input {
+	height: 2.1em;
+	border-radius: .7em;
+	background-image: url("../images/search.png");
+	background-position: 2px;
+	background-repeat: no-repeat;
+	padding-left: 1.3em;
+	color: #DBDBDB;
+}
+
+/* navigation bar */
+#navBar {
+	display: inline-block;
+	width: auto;
+	float: right;
+	/* margin: 0 0 1.8em 1.8em; */
+	margin-right: 0
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-left: -5px;
+}
+
+nav ul li a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 8px;
+	color: #aaa;
+	/* white-space: nowrap; */
+	height: 20px;
+	width: auto;
+	text-align: center;
+	border-color: #aaa;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.publish-navbar {
+	
+}
+
+/* table css*/
+.thead {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.data {
+	text-align: left;
+	width: 410px;
+	font-size: 12px;
+}
+
+table {
+	width: 100%;
+	border-top: 1px solid #e5eff8;
+	border-right: 1px solid #e5eff8;
+	/* margin: 1em auto; */
+	border-collapse: collapse;
+	position: relative;
+}
+
+td {
+	color: #678197;
+	border-bottom: 1px solid #e5eff8;
+	border-left: 1px solid #e5eff8;
+	/* padding: .3em 1em; */
+	text-align: center;
+	height: 47px;
+}
+
+.first-row {
+	text-align: left;
+	padding: 10px;
+}
+
+.thead {
+	background: #f4f9fe;
+	text-align: center;
+	font: bold 1.2em/2em "Century Gothic", "Trebuchet MS", Arial, Helvetica,
+		sans-serif;
+	color: #66a3d3;
+	border-bottom: 1px solid #e5eff8;
+	border-left: 1px solid #e5eff8;
+}
+
+tr:first-child {
+	background: #f7fbff;
+}
+
+tr:nth-child(even) {
+	background: #f4f9fe;
+}
+
+tr:nth-child(odd) {
+	background: #f7fbff
+}
+
+tbody>tr:hover {
+	background: #CCCCCC
+}
+
+#clear {
+	clear: both;
+}
+
+.table-label {
+	/* width: 300px; */
+	font-size: 35px;
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+.tblwrap {
+	width: 46%;
+	float: left;
+	margin: 5px 0px 5px 0px;
+}
+
+.tblwrap2 {
+	width: 46%;
+	float: right;
+	margin: 5px 0px 5px 0px;
+}
+
+.but-wrapper {
+	float: right;
+	margin-top: 30px;
+}
+
+.but-wrapper input {
+	margin-left: -7px;
+}
+
+.empty {
+	height: 25px;
+}
+
+.query-text {
+	width: 100%;
+	height: 240px;
+	resize: none;
+	width: 100%;
+}
+
+/* REGISTER */
+.signup, .login {
+	border: 2px solid #000;
+	background: #fff;
+	width: 550px;
+	height: 450px;
+	position: relative;
+	padding: 5px 15px 5px 10px;
+	/* margin-left: 40px; */
+	display: inline-block;
+	float: left;
+	position: relative;
+}
+
+fieldset legend {
+	margin-left: 10px
+}
+
+.left-signup {
+	width: 47%;
+	float: left;
+	margin: 30px 0px 10px 10px;
+	height: 310px
+}
+
+.right-signup {
+	width: 40%;
+	float: right;
+	margin: 45px 0px 10px 10px;
+	height: 310px;
+}
+
+.input-signup input[type=radio] {
+	float: left;
+	clear: none;
+	margin: 2px 0 0 2px;
+}
+
+.role-radio {
+	display: block;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.input-signup {
+	display: block;
+	margin-bottom: 20px;
+	margin-top: 15px;
+	width: 90%
+}
+
+.signup-button {
+	width: 90%;
+	height: 35px;
+}
+
+.social {
+	position: relative;
+	margin-top: 120px;
+}
+
+.social2 {
+	position: relative;
+}
+
+.face-sign {
+	margin: 0 auto;
+}
+
+.link-button {
+	align-items: flex-start;
+	text-align: center;
+	cursor: default;
+	color: buttontext;
+	padding: 2px 6px 3px;
+	border: 2px outset buttonface;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	background-color: buttonface;
+	box-sizing: border-box;
+	-webkit-appearance: push-button;
+	-webkit-user-select: none;
+	white-space: normal;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	text-decoration: none;
+}
+
+.radio-group-label {
+	float: left;
+	clear: none;
+	display: block;
+	/* padding: 2px 1em 0 0; */
+	margin-left: 30px;
+	margin-top: -40px;
+}
+
+#de, #a, #p {
+	margin-top: 25px;
+}
+
+.radio-group {
+	float: left;
+	display: block;
+	width: 100px;
+	clear: both;
+	margin-left: 6px;
+}
+
+.login {
+	float: right;
+	width: 200px;
+	margin-right: 40px;
+}
+
+.login input[type=text], .login input[type=button] {
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.login-text {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.dataset-search {
+	float: right;
+	margin-top: -15px;
+}
+
+.dataset-wrapper {
+	/* margin: 5px 25px 40px 40px; */
+	
+}
+
+.datepicker {
+	float: left;
+	margin-right: 20px;
+}
+
+.picker-image {
+	background-image: url("../images/calendar.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x: 4px;
+	background-position-y: 2px;
+	width: 50px;
+	height: 18px;
+	display: inline-block;
+}
+
+.picker-text {
+	font-size: 15px;
+	margin-right: 5px;
+}
+
+#datepicker-to, #datepicker-from {
+	background-image: none;
+	display: inline-block;
+}
+
+.right-container {
+	width: 49%;
+	float: left;
+	margin: auto;
+	margin-top: -10px;
+}
+
+.left-container {
+	width: 49%;
+	float: left;
+	margin: auto;
+}
+
+.ds-name-container {
+	padding-top: 10px;
+}
+
+.ds-input-wrapper {
+	display: block;
+	clear: right;
+}
+
+.ds-input-wrapper label {
+	display: inline-block;
+	width: 120px;
+	text-align: left;
+}
+
+.ds-input-wrapper input[type=text] {
+	width: 40%;
+}
+
+.div {
+	padding-top: 25px;
+}
+
+.left-container > p, .right-container >p {
+	height: 100px;
+}
+
+.upload {
+	/* margin-top: 45px; */
+}
+
+.upload h4 {
+	margin-bottom: 10px;
+}
+
+.file-btn {
+	width: 14%;
+	font-size: 17px;
+	height: 28px;
+	padding-top: 4px;
+}
+
+#clone {
+	width: 21%
+}
+
+.execute {
+	margin-top: 0;
+}
+
+.next-btn {
+	margin-top: 50px;
+	float: right;
+}
+
+.explore {
+	width: 100%
+}
+
+.explore-query {
+	float: right;
+	margin-top: -140px;
+}
+
+.interlink-data-table {
+	float: right;
+	display: inline-block;
+	width: 55%;
+	/* clear: both; */
+}
+
+.interlink-search {
+	float: right;
+	display: inline-block;
+	/* margin-top: -25px; */
+}
+
+.inter-data-label {
+	width: 100%;
+	clear: both;
+}
+
+.section-label {
+	display: inline-block;
+	width: 45%;
+	float: left;
+}
+
+.permissions-container {
+	margin-top: 30px;
+}
+
+.portal-settings {
+	height: 200px;
+}
+
+.portal-row {
+	display: block;
+	position: relative;
+	padding-top: 20px;
+}
+
+.select-group {
+	display: inline-block;
+	position: absolute;
+	margin-top: 20px;
+	top: 0;
+}
+
+.select-group label {
+	display: inline;
+	position: absolute;
+	top: 0;
+}
+
+.select-option {
+	display: block;
+	margin-left: 90px;
+}
+
+.conf {
+	
+}
+
+.publish-btn {
+	float: right;
+	position: relative;
+	width: 160px;
+	height: 60px;
+}
+
+.dp-nav {
+	
+}
+
+.auth-display-img {
+	height: 30px;
+	float: left;
+}
+
+.auth-display-img img {
+	height: 30px;
+	width: 30px;
+}
+
+.auth-display-name {
+	height: 30px;
+	float: left;
+	width: 120px;
+	background-color: rgb(241, 241, 241);
+	color: rgb(109, 109, 109);
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+.auth-info {
+	text-align: left;
+	font-family: tahoma;
+	font-size: 14px;
+}
+
+/*Contacts*/
+.contact-info-wrapper {
+	margin-bottom: 20px;
+}
+
+.contact-info {
+	width: 350px;
+}
+
+.contact-info-wrapper>label {
+	font-size: 20px;
+	display: block;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.contact-message {
+	max-width: 450px;
+	min-width: 350px;
+	max-height: 250px;
+	min-height: 150px;
+	resize: none;
+}
+
+#contact-but {
+	width: 100px
+}
+
+/*Feedback rating*/
+#feedback-rate {
+	margin: 0 0 0 2%;
+}
+
+.feedback>label {
+	display: block;
+}
+
+.feedback {
+	width: 190px;
+}

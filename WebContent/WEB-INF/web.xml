@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>DaPaas</display-name>
+	<welcome-file-list>
+		<welcome-file>start_page.html</welcome-file>
+		<welcome-file>start_page.htm</welcome-file>
+		<welcome-file>start_page.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	<context-param>
+		<param-name>additionalPermissions</param-name>
+		<param-value>
+	        https://www.googleapis.com/auth/userinfo.email,https://www.googleapis.com/auth/userinfo.profile
+	    </param-value>
+	</context-param>
+	<context-param>
+		<param-name>googlePlusClientId</param-name>
+		<param-value>118304953863-rjii8edcvp8mst9o616hpjuuukjt19f5.apps.googleusercontent.com</param-value>
+	</context-param>
+	<context-param>
+		<param-name>googlePlusClientSecret</param-name>
+		<param-value>AV1BJXzQLoIf1J5zyL8SNWjh</param-value>
+	</context-param>
+	<context-param>
+		<param-name>FBClientId</param-name>
+		<param-value>1458766331027628</param-value>
+	</context-param>
+	<context-param>
+		<param-name>FBClientSecret</param-name>
+		<param-value>49312940aa34e468cc9dc22fc2c56550</param-value>
+	</context-param>
+</web-app>
